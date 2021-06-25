@@ -1,0 +1,35 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+  font-family: 'Benne', serif;
+}
+
+main {
+  flex-grow: 1;
+}
+.hero-image {
+  min-height: 30vh;
+  background-image: url(https://images.unsplash.com/photo-1476362555312-ab9e108a0b7e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+  background-position: left;
+}
+.image-text{
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.301);
+}
+.object-fit-contain {
+  object-fit: cover;
+}
+@media only screen and (max-width: 768px) {
+  .sml-hdn {
+    display: none;
+  }
+}
+.spill {
+  bottom: -60px;
+}
