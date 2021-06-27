@@ -1,7 +1,6 @@
 :root {
   scroll-behavior: smooth;
 }
-
 body {
   min-height: 100vh;
   display: flex;
@@ -35,6 +34,8 @@ main {
     display: none;
   }
 }
-.spill {
-  bottom: -60px;
+@media only screen and (min-width: 768px) {
+  .spill {
+  bottom: -5vh;
+}
 }
